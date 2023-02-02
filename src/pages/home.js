@@ -1,6 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import {FaLaptopCode } from "react-icons/fa";
+import {FaReact } from "react-icons/fa";
+import {SiNextdotjs } from "react-icons/si";
+import {FaNodeJs } from "react-icons/fa";
+import {SiMongodb } from "react-icons/si";
+import {FaBootstrap } from "react-icons/fa";
+import {SiTailwindcss } from "react-icons/si";
 const home = () => {
   return (
     <div className=''>
@@ -19,14 +24,40 @@ const home = () => {
           <h2 className='font-bold text-3xl text-center mb-4 mt-4'>Skills</h2>
           <hr className='w-20 h-1 bg-cyan-600 m-auto mt-0' />
       </div>
+      <div className='max-w-[1200px] mx-auto py-[40px] grid lg:grid-cols-4 sm:grid-cols-2 gap-6'>
+        <div className='flex flex-col justify-center items-center p-4'>
+          <div className='text-6xl text-cyan-600'><FaReact/></div>
+          <div><h3 className='text-2xl'>React Js</h3></div>
+        </div>
+        <div className='flex flex-col justify-center items-center p-4'>
+          <div className='text-6xl text-cyan-600'><SiNextdotjs/></div>
+          <div><h3 className='text-2xl'>Next Js</h3></div>
+        </div>
+        <div className='flex flex-col justify-center items-center p-4'>
+          <div className='text-6xl text-cyan-600'><SiTailwindcss/></div>
+          <div><h3 className='text-2xl'>Tailwindcss</h3></div>
+        </div>
+        <div className='flex flex-col justify-center items-center p-4'>
+          <div className='text-6xl text-cyan-600'><FaBootstrap/></div>
+          <div><h3 className='text-2xl'>Bootstrap</h3></div>
+        </div>
+        <div className='flex flex-col justify-center items-center p-4'>
+          <div className='text-6xl text-cyan-600'><SiMongodb/></div>
+          <div><h3 className='text-2xl'>Mongodb</h3></div>
+        </div>
+        <div className='flex flex-col justify-center items-center p-4'>
+          <div className='text-6xl text-cyan-600'><FaNodeJs/></div>
+          <div><h3 className='text-2xl'>Node Js</h3></div>
+        </div>
+      </div>
 
-      <div className='max-w-[1200px] mx-auto py-[50px] grid lg:grid-cols-4 sm:grid-cols-2 gap-6'>
-          <div className='shadow-lg p-4 text-center'>
-            <span><FaLaptopCode className='text-4xl inline text-cyan-700 '/></span>
+      {/* <div className='max-w-[1200px] mx-auto py-[40px] grid lg:grid-cols-4 sm:grid-cols-2 gap-6'>
+          <div className='shadow-lg p-4 text-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-150 hover:bg-cyan-600 hover:bg-opacity-20 rounded-md'>
+            <span><FaLaptopCode className=' inline text-cyan-700 text-3xl'/></span>
             <h3 className='text-xl py-2'>Web Developement</h3>
             <p>This is crazy to learn about it and now we are going to explore the new ideas and thought.</p>
           </div>
-      </div>
+      </div> */}
     </div>
   )
 }
