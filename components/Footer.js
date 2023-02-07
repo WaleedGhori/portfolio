@@ -9,7 +9,7 @@ const Footer = () => {
             <span className="ml-3 text-xl">WaleedGhori</span>
           </Link>
           <p className="text-sm text-cyan-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© Waleedghori —
-            <Link href="/home" className="text-cyan-600 ml-1" rel="noopener noreferrer" >@not available</Link>
+            <Link href={'/home'} className="text-cyan-600 ml-1" rel="noopener noreferrer" >@not available</Link>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <Link className="text-cyan-500">
