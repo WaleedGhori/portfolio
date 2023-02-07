@@ -39,7 +39,7 @@ const home = () => {
         </div>
       </div>
       <div>
-        <h2 className='font-bold text-3xl text-center mb-2 mt-4'>Skills</h2>
+        <h2 className='font-bold text-3xl text-center mb-2 mt-8'>Skills</h2>
         <hr className='w-20 h-1 bg-cyan-600 m-auto mt-0' />
       </div>
       <div className='max-w-[1200px] mx-auto py-[40px] grid lg:grid-cols-4 sm:grid-cols-2 gap-6'>
@@ -87,33 +87,44 @@ const home = () => {
           <div className='flex justify-center m-auto'><Image src='/hero1.png' alt='Codeswear' width={300} height={150}></Image></div>
           <div className='text-center p-4'>
             <h3 className='text-lg font-bold'>WakErp</h3>
-            <p> Your news feed helps you keep up with recent activity on repositories you watch or star and people you follow.</p>
+            <p>Wakerp is a erp which helps shopkeepers to perform their operation with visibilty, shopkeeper can create invoices and also apply CRUD on product, and wakerp helps shopkeeper to maintain the customer sales records. (MERN-Stack)</p>
           </div>
         </div>
         <div className='flex flex-col min-w-[100px] w-40'>
           <div className='flex justify-center m-auto'><Image src='/hero1.png' alt='Codeswear' width={300} height={150}></Image></div>
           <div className='text-center p-4'>
             <h3 className='text-lg font-bold'>Tech Websites</h3>
-            <p> Your news feed helps you keep up with recent activity on repositories you watch or star and people you follow.</p>
+            <p>This website is software company website where tech company upload their all information regarding company policies, standards, portfolio, carees and visiion of company. (NEXT JS) </p>
           </div>
         </div>
         <div className='flex flex-col min-w-[100px] w-40'>
           <div className='flex justify-center m-auto'><Image src='/hero1.png' alt='Codeswear' width={300} height={150}></Image></div>
           <div className='text-center p-4'>
             <h3 className='text-lg font-bold'>Code Wear</h3>
-            <p> Your news feed helps you keep up with recent activity on repositories you watch or star and people you follow.</p>
+            <p>CodesWear is a single vendor e-commerce website. This website help business to grow their buisness on internet. (NEXT JS)</p>
           </div>
         </div>
         <div className='flex flex-col min-w-[100px] w-40'>
           <div className='flex justify-center m-auto'><Image src='/hero1.png' alt='Codeswear' width={300} height={150}></Image></div>
           <div className='text-center p-4'>
             <h3 className='text-lg font-bold'>Bloging</h3>
-            <p> Your news feed helps you keep up with recent activity on repositories you watch or star and people you follow.</p>
+            <p>This is a Blogging static Website which helps beginner to aculmate the new trend of IT and also give opportunity to IT expert to giver their golden advice and show thier experience behind the world.</p>
           </div>
         </div>
         </Slider>
 
       </div>
+
+      <div className='mt-12 pt-3'> 
+      <div>
+      <h2 className='font-bold text-3xl text-black text-center mb-2 mt-4'>Experienced</h2>
+      <hr className='w-44 h-1 border border-cyan-600 bg-cyan-600 m-auto mt-0' />
+      </div>
+      <div className='p-8 mx-10'>
+        <p className='text-black'>I have a 1 year working experience being a kpo from distribution. Where iam dealing with bookers and salesman and makeing invoices, bookings, and entrying data into erp and also on excel...</p>
+      </div>
+      </div>
+
     </div>
     </>
   )
