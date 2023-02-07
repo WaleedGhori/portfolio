@@ -10,8 +10,8 @@ const Footer = () => {
         </div>
         <div className=''><p className='text-cyan-500 text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4'>© 2023 —WaleedGhori</p></div>
         <div className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
-          <span className='m-2'><FaLinkedin className='text-cyan-500'/></span>
-          <span className='m-2'><FaGithub className='text-cyan-500'/></span>
+          <Link href={'https://www.linkedin.com/in/waleed-ghori-810099216/'} className='m-2' target={'_blank'}><span className='m-2'><FaLinkedin className='text-cyan-500 '/></span></Link>
+          <Link href={'https://github.com/WaleedGhori'} className='m-2' target={'_blank'}><span className='m-2'><FaGithub className='text-cyan-500'/></span></Link>
         </div>
       </footer>
     </div>
